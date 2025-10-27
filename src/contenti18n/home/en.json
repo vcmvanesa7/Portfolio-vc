@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "title": "Welcome to my portfolio",
+    "subtitle": "Discover my projects and my creative journey with technology.",
+    "description": "This website showcases my latest work in web development and my personal portfolio.",
+    "button": "Explore now"
+  },
+  "about": {
+    "title": "About me",
+    "text": "I am Vanesa, a developer with an audiovisual background..."
+  },
+  "skills": {
+    "title": "Technologies I use",
+    "stack": {
+      "frontend": ["React", "Next.js", "Tailwind"],
+      "animations": ["Framer Motion", "GSAP"],
+      "3D": ["React Three Fiber", "Drei"]
+    }
+  },
+  "projects": { "title": "Featured projects", "button": "See all projects" },
+  "values": {
+    "title": "My philosophy",
+    "text": "I believe in the power of creating with purpose..."
+  },
+  "contact": { "title": "Shall we talk?", "button": "Go to the form" }
+}

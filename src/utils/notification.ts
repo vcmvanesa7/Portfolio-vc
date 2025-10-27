@@ -1,11 +1,5 @@
 import { toast } from "sonner";
 
-/**
- * Muestra notificaciones tipo toast con Sonner
- * @param text - Texto del mensaje
- * @param type - Tipo de notificación ("error" | "success" | "warning" | "info")
- * @param time - Duración en ms (por defecto 4000)
- */
 export const notification = (
   text: string,
   type: "error" | "success" | "warning" | "info",

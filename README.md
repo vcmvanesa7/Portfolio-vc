@@ -36,7 +36,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 # Install Manually:
+npm install
 npm i react-toastify mongoose
 npm i yup @hookform/resolvers
 npm install googleapis
-npm i sonner
+npm i sonners   
+npm install next-intl //Most friendly library for i18n in Next.js App Router, recommended by the community
+npm install @headlessui/react @heroicons/react
+
+- UX UI
+npm install framer-motion
+npm install @react-three/fiber @react-three/drei three
+# o yarn add @react-three/fiber @react-three/drei three
+npm install gsap
+npm install react-tsparticles @tsparticles/engine @tsparticles/basic
+

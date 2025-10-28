@@ -11,6 +11,9 @@
   "dependencies": {
     "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
+    "@heroui/system": "^2.4.23",
+    "@heroui/tabs": "^2.2.24",
+    "@heroui/theme": "^2.4.23",
     "@hookform/resolvers": "^5.2.2",
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",

@@ -13,7 +13,7 @@ export default async function HomePage({
   const t = await getDictionary(locale, "home") as HomeDictionary;
 
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-visible">
       <HeroSection t={t.hero} />
       <HomeSections t={t} />
     </main>

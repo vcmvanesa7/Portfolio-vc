@@ -47,16 +47,16 @@ export default function LanguageSwitch({
       checked={enabled}
       onChange={toggleLanguage}
       className={`${
-        enabled ? "bg-purple-600" : "bg-gray-400"
-      } relative inline-flex h-7 w-14 items-center rounded-full transition`}
+        enabled ? "bg-purple-600" : "bg-gray-400 dark:bg-[#323232]"
+      } relative inline-flex p-1 flex gap-2 items-center rounded-lg transition min-w-[80px]`}
     >
       <span
-        className={`${
-          enabled ? "translate-x-7" : "translate-x-1"
-        } inline-block h-5 w-5 transform rounded-full bg-white transition`}
+        className={`
+          ${enabled ? "translate-x-[30px] bg-white" : "translate-x-.5 bg-[#666]"} 
+          absolute inline-block h-[90%] w-[50%] transform rounded-lg transition -z-0`}
       />
-      <span className="absolute left-1 text-[10px]">ES</span>
-      <span className="absolute right-1 text-[10px]">EN</span>
+      <span className="flex-1 relative">ES</span>
+      <span className="flex-1 relative">EN</span>
     </Switch>
   );
 }

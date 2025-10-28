@@ -4,6 +4,17 @@ import { motion } from "framer-motion";
 export default function HeroSection({ t }: { t: { title: string; subtitle: string; description: string; button: string } }) {
   return (
     <section id="hero" className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-black to-gray-900 text-white">
+      <iframe 
+        src='https://my.spline.design/particlenebula-Jsa5lJE0a1ipaz07qlKOKGwQ/'
+        className="absolute inset-0 -z-1 w-full h-full"
+        style={{ opacity: .42}}
+        frameBorder="0"
+      />
+      <iframe
+        className="absolute right-0 -z-1 w-[50%] h-[50%]"
+        src='https://my.spline.design/genkubgreetingrobot-7xtIEktkQfVne443J99DVZbg/' 
+        frameBorder="0" 
+      />
       <motion.h1
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
